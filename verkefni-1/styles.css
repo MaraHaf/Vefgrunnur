@@ -1,0 +1,27 @@
+body{
+    max-width:50%; /* 800px eða 1600px */ 
+    font-size:1em; /*= 16px retina skjár = 32px */
+    margin-left:25em;
+    margin-right:25em;
+    padding:1em;
+    border:1px solid rgb(100, 100, 100);
+
+}
+h1{
+    color:rgb(105, 197, 233) ;
+}
+h2{
+    color:rgb(191, 144, 235)
+}
+h3{
+    color:rgb(144, 144, 219)
+}
+.poem{
+    font-style: italic;
+}
+.poem h4{color:rgb(240, 134, 134)}
+.inlineblock li {
+    display:inline-block;
+    padding-right:3em;
+    font-style:italic;
+}
