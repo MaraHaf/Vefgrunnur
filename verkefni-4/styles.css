@@ -1,0 +1,44 @@
+body{
+    
+    margin:0;
+    border:1px solid rgb(100, 100, 100);
+    line-height: 1.5;
+
+}
+h1{
+    color:rgb(105, 197, 233) ;
+}
+h2{
+    color:rgb(191, 144, 235)
+}
+h3{
+    color:rgb(144, 144, 219)}
+/* hlutfall mynda sveigjanlegt*/
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (min-width:48em){
+    .col-2{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:2em;
+    }
+    .col-3{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:2em;
+    }
+    .col-4{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:2em;
+    }
+}
+/*
+@media screen and (min-with:60em){
+    .col-4{
+        grid-template-columns: repeat(4,1fr);
+    }
+} */
